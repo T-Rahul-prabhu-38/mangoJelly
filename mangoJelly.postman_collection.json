@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "ad3d0300-d325-4aa8-b426-2d18580d65b2",
+		"name": "mangoJelly",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32750528"
+	},
+	"item": [
+		{
+			"name": "get req",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5001/api/comics",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"comics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post req",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Spider-Man #1\",\n  \"author\": \"Stan Lee\",\n  \"year\": 1963,\n  \"price\": 199.99,\n  \"discount\": 0,\n  \"pages\": 32,\n  \"condition\": \"used\",\n  \"description\": \"The first appearance of Spider-Man\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5001/api/comics",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"comics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "put req",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"price\": 249.99,\n  \"condition\": \"new\",\n  \"description\": \"Updated description: The first appearance of Spider-Man, in mint condition\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5001/api/comics/6714eba6a6b8ff845aae90d1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"comics",
+						"6714eba6a6b8ff845aae90d1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "del req",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5001/api/comics/6714eba6a6b8ff845aae90d1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"comics",
+						"6714eba6a6b8ff845aae90d1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

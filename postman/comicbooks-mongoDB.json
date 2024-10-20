@@ -1,0 +1,120 @@
+[{
+  "_id": {
+    "$oid": "67140a3b3c8dcd0f7d2e5310"
+  },
+  "name": "The Amazing Spider-Man",
+  "author": "Stan Lee",
+  "year": 1963,
+  "price": 150,
+  "discount": 10,
+  "pages": 32,
+  "condition": "new",
+  "description": "First appearance of Spider-Man in Marvel Comics.",
+  "createdAt": {
+    "$date": "2024-10-19T19:36:27.625Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-19T19:36:27.625Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67146af3909faf280ac4c1db"
+  },
+  "name": "Batman: Year One",
+  "author": "Frank Miller",
+  "year": 1987,
+  "price": 12.99,
+  "discount": 5,
+  "pages": 144,
+  "condition": "new",
+  "description": "A retelling of Batman's first year as a crime fighter.",
+  "createdAt": {
+    "$date": "2024-10-20T02:29:07.334Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-20T02:29:07.334Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67146b6b909faf280ac4c1dd"
+  },
+  "name": "Batman: Year One",
+  "author": "Frank Miller",
+  "year": 1987,
+  "price": 12.99,
+  "discount": 5,
+  "pages": 144,
+  "condition": "new",
+  "description": "A retelling of Batman's first year as a crime fighter.",
+  "createdAt": {
+    "$date": "2024-10-20T02:31:07.843Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-20T02:31:07.843Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67146b73909faf280ac4c1df"
+  },
+  "name": "The Dark Knight Returns",
+  "author": "Frank Miller",
+  "year": 1986,
+  "price": 14.99,
+  "discount": 5,
+  "pages": 224,
+  "condition": "used",
+  "description": "Batman comes out of retirement to face new threats in a dystopian future.",
+  "createdAt": {
+    "$date": "2024-10-20T02:31:15.745Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-20T02:31:15.746Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67146b7d909faf280ac4c1e1"
+  },
+  "name": "Maus: A Survivor's Tale",
+  "author": "Art Spiegelman",
+  "year": 1991,
+  "price": 22.5,
+  "discount": 10,
+  "pages": 296,
+  "condition": "new",
+  "description": "A Pulitzer Prize-winning graphic novel depicting the Holocaust through the use of anthropomorphic animals.",
+  "createdAt": {
+    "$date": "2024-10-20T02:31:25.070Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-20T02:31:25.070Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6714eba6a6b8ff845aae90d1"
+  },
+  "name": "Spider-Man #1",
+  "author": "Stan Lee",
+  "year": 1963,
+  "price": 199.99,
+  "discount": 0,
+  "pages": 32,
+  "condition": "used",
+  "description": "The first appearance of Spider-Man",
+  "createdAt": {
+    "$date": "2024-10-20T11:38:14.847Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-20T11:38:14.847Z"
+  },
+  "__v": 0
+}]
