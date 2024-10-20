@@ -1,4 +1,4 @@
-const ComicBook = require('../../models/comicBook.js');
+const ComicBook = require('../models/comicBook.js');
 
 // i am creating a new comic book here
 exports.createComic = async (req, res) => {
